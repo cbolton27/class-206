@@ -108,10 +108,41 @@ body {
   height: 100%;
 }
 
+header, 
+footer,
+main{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #d9d9d9;
+}
+
+header{
+  font-family: 'Poppins', sans-serif;
+  font-size: 3.5em;
+  margin: 1%;
+}
+
+main{
+  font-family: 'Noto Sans', sans-serif;
+  font-size: 1.5em;
+  padding-bottom: 2.25%;
+  margin: 1%;
+}
+
+footer{
+  display: flex;
+  align-items: center;
+  font-family: 'Poppins', sans-serif;
+  font-size: 1em;
+  padding-top: 3%;
+}
+
 .wrapper {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  flex-flow: row wrap;
   font-weight: 700;
 }
 

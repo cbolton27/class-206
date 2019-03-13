@@ -111,9 +111,6 @@ body {
 
 header,
 footer {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   background-color: #222;
   height: 80px;
   width: 100%;
@@ -128,7 +125,9 @@ main {
 header,
 footer,
 main {
-  /*set display to flex and vertically & horizontally align by setting justify-content and align-items to center*/
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 #div-1,
