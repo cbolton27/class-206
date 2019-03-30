@@ -11,12 +11,20 @@ html{
 /*========BODY========*/
 body {
 	font-family: 'Montserrat', Helvetica, Arial, sans-serif;
+	display: flex;
+	justify-content: center;
+	align-items: center;
 	font-size: 1em;
 }
 
 /*========CONTENT CONTAINER========*/
 .container{
-
+	max-width: 1200px;
+	width: 90%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 }
 
 /*========TEXT PROPERTIES=========*/
@@ -165,6 +173,11 @@ header nav ul li a{
 /*========FOOTER========*/
 footer {
 	border-top: 3px solid #eee;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-flow: row wrap;
 	text-align: center;
 }
 
@@ -178,17 +191,16 @@ footer span {
 /*=============BREAK POINTS==================*/
 
 /*============Tablet===========*/
-@media all and (min-width: 768px){
 
+@media screen and (min-width: 400px){
+
+	header nav ul li {
+		width: 100%;
+	}
 }
+
+
 /*============Desktop==========*/
 @media all and (min-width: 1200px){
 
-	header nav {
-		padding: 46px 0;
-	}
-	header nav ul {
-		margin: 0;
-		padding: 0;
-	}
 }
