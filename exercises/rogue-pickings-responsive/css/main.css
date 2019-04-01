@@ -94,7 +94,7 @@ header nav ul li {
 	font-weight: 700;
 	font-size: 0.875em;
 	list-style-type: none;
-	width: 100%;
+	flex: 0 0 100%;
 	padding: 7px 0;
 }
 
@@ -226,17 +226,42 @@ footer span {
 	}
 
 	header h1{
-		width: 30%;
-		padding: 0;
+		padding: 7px 0 0 0;
 		border-bottom: none;
+		flex: 0 0 30%;
 	}
 
 	header nav{
-		width: 40%;
+		width: 55%;
 	}
 
 	header nav ul{
 		display: flex;
 		justify-content: space-between;
+	}
+
+	header nav ul li{
+		padding: 0;
+		flex: 0 0 0;
+	}
+
+	.main-title h3{
+		text-align: left;
+	}
+
+	.main-title p{
+		text-align: left;
+	}
+
+	.section-one,
+	.section-two,
+	.section-three{
+		text-align: left;
+	}
+
+	.section-one h4,
+	.section-two h4,
+	.section-three h4{
+		text-align: left;
 	}
 }
